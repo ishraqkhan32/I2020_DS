@@ -1,9 +1,16 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ds_course_database.db'
+# setup flask application
+app = Flask(__name__) 
+
+# setup sqlite database called ds_course_database.db
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ds_course_database.db' 
+
+# removes Flask warning
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# connect app to SQLAlchemy
 db = SQLAlchemy(app)
 
 
@@ -31,10 +38,11 @@ def register():
         return redirect(url_for('home'))
     return render_template("register.html")
 
+# need to always have this next line to run this script
 if __name__ == '__main__':
-    db.drop_all()
-    db.create_all()
-    app.run(debug=True)
+    db.drop_all() # drop the table to start with new database
+    db.create_all() # create all tables fresh
+    app.run(debug=True) # 
 
 #db.session.add(new_student)
 #db.session.commit()
