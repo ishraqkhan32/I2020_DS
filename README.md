@@ -9,7 +9,7 @@ This repo contains all of my coursework (lessons, homeworks, labs, and projects)
 ## Course Description
 **Technical Instructor:** Anil Seoparson, aseoparson@theknowledgehouse.org
 
-**Teaching Assistant:** Malcom Holiday, mholliday@theknowledgehouse.org
+**Teaching Assistant:** Malcolm Holliday, mholliday@theknowledgehouse.org
 
 ---
 
@@ -30,7 +30,7 @@ git clone https://github.com/ishraqkhan32/I2020_DS.git
 cd ./I2020_DS
 ```
 
-## Python Environment & Depenedencies
+## Python Environment & Dependencies
 
 ```
 # create virtual environment
@@ -52,6 +52,6 @@ deactivate
 
 Ishraq Khan – Contact me @ [LinkedIn](https://www.linkedin.com/in/ishraq-khan/)
 
-Please comply with academic standards of honesty and pass off any work for homeworks, projects, or labs as your own. I am more than happy to explain if you need any help understanding any of my coursework. 
+Please comply with academic standards of honesty and do not pass off any of my work as your own. I am more than happy to explain if you need help understanding anything in this repository. 
 
 Distributed under the GPL license. See ``LICENSE`` for more information.
